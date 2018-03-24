@@ -1,0 +1,10 @@
+.O_ContentWrapper {
+  position: fixed;
+  width: 1380px;
+  height: 100%;
+  top: 0px;
+  left: 300px;
+  border: 1px solid rgba(0,0,0,.1);
+  box-sizing: border-box;
+  overflow: hidden;
+}

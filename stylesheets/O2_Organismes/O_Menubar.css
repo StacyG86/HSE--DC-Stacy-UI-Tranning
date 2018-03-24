@@ -1,0 +1,11 @@
+.O_ContentWrapper .O_Menubar {
+  position: fixed;
+  top: 0;
+  width: 1380px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.1);
+  box-sizing: border-box;
+}

@@ -1,0 +1,14 @@
+.O_ContentWrapper .O_Content {
+  position: fixed;
+  top: 120px;
+  width: 1380px;
+  height: 777px;
+  overflow: scroll;
+  border: 1px solid rgba(0,0,0,.1);
+  box-sizing: border-box;
+}
+
+.O_ContentWrapper .O_Content p {
+  margin: 20px 20px;
+  line-height: 38px;
+}

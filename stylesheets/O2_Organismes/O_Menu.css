@@ -1,0 +1,15 @@
+.O_Sidebar .O_Menu {
+  position: fixed;
+  top: 50px;
+  overflow: scroll;
+  width: 300px;
+  height: 477px;
+  /* background-color: white; */
+  border: 1px solid rgba(0,0,0,.1);
+  box-sizing: border-box;
+}
+
+.O_Menu>ul>li {
+  margin-left: 20px;
+  line-height: 48px;
+}
