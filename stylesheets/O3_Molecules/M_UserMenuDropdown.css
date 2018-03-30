@@ -1,0 +1,17 @@
+.M_UserMenuDropdown {
+  position: fixed;
+  width: 185px;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,.1);
+  top: 81px;
+  right: 50px;
+
+}
+
+.M_UserMenuDropdown>ul>li {
+  padding: 20px;
+}
+
+.M_UserMenuDropdown .bottom {
+  border-top: 1px solid rgba(0,0,0,.1);
+}

@@ -1,15 +1,20 @@
-.O_Sidebar .O_Menu {
-  position: fixed;
-  top: 50px;
-  overflow: scroll;
-  width: 300px;
-  height: 477px;
-  /* background-color: white; */
-  border: 1px solid rgba(0,0,0,.1);
-  box-sizing: border-box;
+.O_Menu {
+  /* flex-grow: 1; */
+  overflow: hidden;
+  /* width: 300px; */
+  height: calc(100% - 80px - 70px);
 }
 
-.O_Menu>ul>li {
+.O_Menu .scrollable>ul>li {
   margin-left: 20px;
   line-height: 48px;
+}
+
+.O_Menu .scrollable {
+  position: relative;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  height: 100%;
+  width: 320px;
+  padding-right: 20px;
 }

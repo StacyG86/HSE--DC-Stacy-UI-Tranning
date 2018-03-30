@@ -4,22 +4,18 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-body a {
+a {
+  font-size: 18px;
+}
+
+a {
   color: #686868;
   text-decoration: none;
   cursor: pointer;
 }
 
-body a:hover {
+ a:hover {
+  font-weight: bold;
   text-decoration: none;
-  color: blue;
-}
-
-body ul {
-  font-size: 18px;
-
-}
-
-body a {
-  font-size: 18px;
+  color: #3b87f4;
 }

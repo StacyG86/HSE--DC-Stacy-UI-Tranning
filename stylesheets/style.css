@@ -14,3 +14,8 @@
 @import "O2_Organismes/O_SearchBar.css";
 @import "O2_Organismes/O_Content.css";
 @import "O2_Organismes/O_ContentFooter.css";
+@import "O2_Organismes/O_UserMenu.css";
+
+@import "O3_Molecules/M_UserMenuDropdown.css";
+
+@import "O4_Atoms/A_UserIcon.css";

@@ -1,16 +1,27 @@
-.O_ContentWrapper .O_Menubar {
-  position: fixed;
-  top: 0;
-  width: 1380px;
-  height: 50px;
+.O_Menubar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid rgba(0,0,0,.1);
-  box-sizing: border-box;
-  padding: 0 20px;
+
+
+  height: 79px;
+  /* border-bottom: 1px solid rgba(0,0,0,.1); */
 }
 
-.O_Menubar a {
 
+
+.O_Menubar .left a:hover {
+  border-bottom: 2px solid #3b87f4;
+}
+
+.O_Menubar .left a {
+  padding: 27px 35px;
+  margin-left: 80px;
+}
+
+.O_Menubar .right {
+  display: flex;
+}
+.O_Menubar .right>a {
+  padding-right: 170px;
 }
