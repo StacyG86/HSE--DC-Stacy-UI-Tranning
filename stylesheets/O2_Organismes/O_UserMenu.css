@@ -1,6 +1,6 @@
 .O_UserMenu {
-width: 180px;
-height: 16px;
-background-image: url(../images/user.svg);
+/* width: 180px;
+height: 16px; */
+background-image: url(../user.svg);
 
 }
