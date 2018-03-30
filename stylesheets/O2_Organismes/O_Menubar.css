@@ -23,5 +23,6 @@
   display: flex;
 }
 .O_Menubar .right>a {
-  padding-right: 170px;
+  padding-right: 72px;
+  padding-top: 19px;
 }
