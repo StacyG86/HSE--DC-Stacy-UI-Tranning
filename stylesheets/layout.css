@@ -20,8 +20,9 @@ a {
   color: #3b87f4;
 }
 
-
-
-/* ul li {
-  display: none;
-} */
+figure {
+  width: 53px;
+  height: 53px;
+  margin-right: 50px;
+  background-size: cover;
+}
