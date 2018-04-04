@@ -1,0 +1,7 @@
+.O_UserMenu {
+  position: relative;
+  height: 80px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+}

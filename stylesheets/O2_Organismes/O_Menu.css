@@ -1,20 +1,14 @@
 .O_Menu {
-  /* flex-grow: 1; */
-  overflow: hidden;
-  /* width: 300px; */
   height: calc(100% - 80px - 70px);
+  overflow: hidden;
 }
 
-.O_Menu .scrollable>ul>li {
-  margin-left: 20px;
-  line-height: 48px;
-}
 
 .O_Menu .scrollable {
   position: relative;
   box-sizing: border-box;
-  overflow-y: scroll;
-  height: 100%;
   width: 320px;
+  height: 100%;
   padding-right: 20px;
+  overflow-y: scroll;
 }

@@ -1,28 +1,12 @@
 .O_Menubar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
-
-  height: 79px;
-  /* border-bottom: 1px solid rgba(0,0,0,.1); */
+  height: 80px;
+  padding: 0 40px;
+  border-bottom: 1px solid var(--gray);
 }
 
-
-
-.O_Menubar .left a:hover {
-  border-bottom: 2px solid #3b87f4;
-}
-
-.O_Menubar .left a {
-  padding: 27px 35px;
-  margin-left: 80px;
-}
-
+.O_Menubar .left,
 .O_Menubar .right {
   display: flex;
-}
-.O_Menubar .right>a {
-  padding-right: 72px;
-  padding-top: 19px;
 }

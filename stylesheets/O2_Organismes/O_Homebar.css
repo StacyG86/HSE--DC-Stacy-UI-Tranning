@@ -1,6 +1,5 @@
-.T_SinglePageUI .O_Sidebar .O_Homebar {
-width: 100%;
-
-flex: 0 0 80px;
-border-bottom: 1px solid rgba(0,0,0,.1);
+.O_Homebar {
+  width: 100%;
+  flex: 0 0 80px;
+  border-bottom: 1px solid var(--gray);
 }

@@ -1,10 +1,10 @@
 .M_UserMenuDropdown {
   position: fixed;
-  width: 185px;
-  background-color: white;
-  border: 1px solid rgba(0,0,0,.1);
-  top: 81px;
-  right: 50px;
+  display: none;
+  top: 80px;
+  right: 25;
+
+  font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
@@ -14,4 +14,8 @@
 
 .M_UserMenuDropdown .bottom {
   border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.O_UserMenu:hover .M_UserMenuDropdown {
+  display: block;
 }
