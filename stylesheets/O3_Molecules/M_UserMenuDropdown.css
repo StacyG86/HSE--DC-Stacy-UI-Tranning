@@ -2,18 +2,26 @@
   position: fixed;
   display: none;
   top: 80px;
-  right: 25;
+  right: 25px;
+  min-width: 224px;
+
+  border: 1px solid var(--gray);
+  background-color: white;
+  font-family: var(--OpenSans);
+  font-size: 14px;
+  font-weight: 300;
 
   font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
-.M_UserMenuDropdown>ul>li {
-  padding: 20px;
+.M_UserMenuDropdown .top,
+.M_UserMenuDropdown .bottom {
+  padding: 10px 0;
 }
 
-.M_UserMenuDropdown .bottom {
-  border-top: 1px solid rgba(0,0,0,.1);
+.M_UserMenuDropdown .top {
+  border-bottom: 1px solid var(--gray);
 }
 
 .O_UserMenu:hover .M_UserMenuDropdown {
