@@ -41,7 +41,7 @@
 }
 
 .M_UserMenuDropdown::after {
-  border-color: rgba(136, 183, 213, 0);
+  border-color: transparent;
   border-bottom-color: white;
   border-width: 18px;
   margin-left: 24px;
