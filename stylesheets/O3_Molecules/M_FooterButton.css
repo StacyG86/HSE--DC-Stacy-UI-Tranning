@@ -1,6 +1,5 @@
 .M_FooterButton {
   display: flex;
-  height: 50px;
   align-items: center;
   cursor: pointer;
   color: var(--text-gray);
