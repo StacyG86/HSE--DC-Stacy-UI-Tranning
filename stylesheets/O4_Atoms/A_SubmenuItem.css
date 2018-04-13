@@ -1,0 +1,16 @@
+.A_SubmenuItem {
+  display: block;
+  line-height: 40px;
+
+
+
+  font-family: var(--OpenSans);
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--text-gray);
+  padding-left: 78px;
+}
+
+.A_SubmenuItem:hover {
+  background-color: var(--gray);
+}

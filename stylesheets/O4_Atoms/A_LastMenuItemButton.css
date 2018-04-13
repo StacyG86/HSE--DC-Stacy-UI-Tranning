@@ -1,0 +1,23 @@
+.A_LastMenuItemButton {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--text-gray);
+}
+
+.A_LastMenuItemButton:hover {
+  background-color: var(--gray);
+}
+
+.A_LastMenuItemButton .icon {
+  margin-left: 32px;
+  margin-right: 26px;
+  width: 25px;
+}
+
+.A_LastMenuItemButton span {
+  font-family: var(--OpenSans);
+  font-size: 14px;
+  font-weight: 300;
+}

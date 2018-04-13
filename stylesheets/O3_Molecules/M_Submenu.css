@@ -1,0 +1,23 @@
+.O_MenuItem.active .M_Submenu {
+  display: block;
+  max-height: 320px;
+  opacity: 1;
+}
+
+.M_Submenu {
+  display: none;
+
+}
+
+.M_Submenu {
+  -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
