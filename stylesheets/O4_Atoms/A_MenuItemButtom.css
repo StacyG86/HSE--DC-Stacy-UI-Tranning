@@ -13,6 +13,7 @@
 
   cursor: pointer;
   color: var(--text-gray);
+
 }
 
 .A_MenuItemButtom:hover {
@@ -29,4 +30,5 @@
   margin-left: 32px;
   margin-right: 26px;
   width: 25px;
+  transition: all .2s ease;
 }
