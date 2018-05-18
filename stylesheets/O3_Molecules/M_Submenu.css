@@ -4,10 +4,10 @@
   opacity: 1;
 }
 
-.M_Submenu {
+/* .M_Submenu {
   display: none;
 
-}
+} */
 
 .M_Submenu {
   -webkit-transition: all .5s;

@@ -126,34 +126,35 @@
             </div>
 
             <div>
-              <div class="O_LastMenu">
-                <div class="O_LastMenuItem">
-                  <a href="#" class="A_LastMenuItemButton">
-                    <span class="icon">
-                      <i class="far fa-folder"></i>
-                    </span>
-                    <span>Создать проект</span>
-                  </a>
-                </div>
+              <div class="O_MenuItem">
+                <a href="#" class="A_ActionButton">
+                  <span class="icon">
+                    <i class="fas fa-book"></i>
+                  </span>
 
-                <div class="O_LastMenuItem">
-                  <a href="#" class="A_LastMenuItemButton">
-                    <span class="icon">
-                      <i class="fas fa-list-ul"></i>
-                    </span>
-                    <span>Загрузить список</span>
-                  </a>
-                </div>
+                  <span>Создать проект</span>
+                </a>
+              </div>
+
+              <div class="O_MenuItem">
+                <a href="#" class="A_ActionButton">
+                  <span class="icon">
+                    <i class="fas fa-list-ul"></i>
+                  </span>
+
+                  <span>Загрузить список</span>
+                </a>
               </div>
             </div>
           </div>
         </nav>
 
         <footer class="O_SidebarFooter">
-          <div class="M_FooterButton">
-            <a href="#" class="A_FooterItem">
+          <div class="O_MenuItem">
+            <a href="" class="A_ActionButton" id="sidebarToggle">
               <span class="icon">
-                <i class="fas fa-angle-double-left"></i>
+                <i class="fas fa-backward"></i>
+                <i class="fas fa-forward"></i>
               </span>
 
               <span>Свернуть</span>
@@ -197,7 +198,33 @@
         <div class="O_Content">
         </div>
 
-        <footer class="O_ContentFooter"></footer>
+        <footer class="O_ContentFooter">
+          <div class="O_Pagination">
+            <a href="#" class="A_PaginationButton arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </a>
+
+            <div class="M_PaginationPages">
+              <a href="#" class="A_PaginationButton page">1</a>
+
+              <div class="A_PaginationButton ellipsis">...</div>
+
+              <a href="#" class="A_PaginationButton page">99</a>
+              <a href="#" class="A_PaginationButton page">100</a>
+              <a href="#" class="A_PaginationButton page">101</a>
+
+              <div class="A_PaginationButton ellipsis">...</div>
+
+              <a href="#" class="A_PaginationButton page active">1221</a>
+
+            </div>
+
+            <a href="#" class="A_PaginationButton arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </a>
+
+          </div>
+        </footer>
       </div>
     </div>
   </body>

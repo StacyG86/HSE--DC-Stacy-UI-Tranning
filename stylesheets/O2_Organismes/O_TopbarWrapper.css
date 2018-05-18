@@ -1,5 +1,10 @@
 .O_TopbarWrapper {
   position: fixed;
-  width: calc(100% - 300px);
-  background-color: white;
+  width: calc(100% - var(--full-sidebar-width));
+
+  background-color: #fff;
+}
+
+.T_SinglePageUI.compact .O_TopbarWrapper {
+  width: calc(100% - var(--compact-sidebar-width));
 }

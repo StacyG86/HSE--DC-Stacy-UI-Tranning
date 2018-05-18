@@ -7,7 +7,7 @@
 .O_Menu .scrollable {
   position: relative;
   box-sizing: border-box;
-  width: 334px;
+  width: 350px;
   height: 100%;
   padding-right: 20px;
   overflow-y: scroll;
@@ -15,4 +15,8 @@
 
 .O_Menu .scrollable > div {
   padding: 10px 15px 0 0;
+}
+
+.O_Menu .scrollable > div:not(:last-child) {
+  border-bottom: 1px solid var(--gray);
 }

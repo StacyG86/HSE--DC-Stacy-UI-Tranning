@@ -1,4 +1,6 @@
 :root {
+  --full-sidebar-width: 300px;
+  --compact-sidebar-width: 81px;
   --OpenSans:'Open Sans Condensed', sans-serif;
   --black: #333;
   --primary: #0080ff;

@@ -1,5 +1,7 @@
 $(function() {
   $(".A_MenuItemButtom").click(function(e) {
+    e.preventDefault();
+
     let container = $(e.target).closest(".O_MenuItem");
 
     if (container.hasClass("active")) {
@@ -9,5 +11,11 @@ $(function() {
       container.addClass("active");
     }
 
+  });
+
+  $("#sidebarToggle").click(function(e) {
+    e.preventDefault()
+    $(e.target).toggleClass("compact")
+    $(".T_SinglePageUI").toggleClass("compact")
   });
 });
