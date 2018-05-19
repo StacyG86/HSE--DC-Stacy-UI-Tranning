@@ -17,12 +17,14 @@
 @import "O2_Organismes/O_UserMenu.css";
 @import "O2_Organismes/O_MenuItem.css";
 @import "O2_Organismes/O_Pagination.css";
+@import "O2_Organismes/O_PerPageMenu.css";
 
 
 
 @import "O3_Molecules/M_UserMenuDropdown.css";
 @import "O3_Molecules/M_Submenu.css";
 @import "O3_Molecules/M_PaginationPages.css";
+@import "O3_Molecules/M_PerPageDropdown.css";
 
 @import "O4_Atoms/A_MenubarLink.css";
 @import "O4_Atoms/A_UserIcon.css";
@@ -31,3 +33,4 @@
 @import "O4_Atoms/A_SubmenuItem.css";
 @import "O4_Atoms/A_ActionButton.css";
 @import "O4_Atoms/A_PaginationButton page.css";
+@import "O4_Atoms/A_PerPageButton.css";

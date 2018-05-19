@@ -6,7 +6,6 @@
 
 .O_Menu .scrollable {
   position: relative;
-  box-sizing: border-box;
   width: 350px;
   height: 100%;
   padding-right: 20px;
