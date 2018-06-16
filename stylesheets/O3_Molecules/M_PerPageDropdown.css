@@ -18,3 +18,29 @@
 
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
+.M_PerPageDropdown::after,
+.M_PerPageDropdown::before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.M_PerPageDropdown::after {
+  border-color: transparent;
+  border-top-color: white;
+  border-width: 18px;
+  margin-left: 24px;
+}
+
+.M_PerPageDropdown::before {
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: var(--gray);
+  border-width: 20px;
+  margin-left: 22px;
+}
